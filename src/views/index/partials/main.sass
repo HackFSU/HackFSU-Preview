@@ -21,11 +21,18 @@ section.main
     +widescreen
         justify-content: center
 
-
 .main > .content-wrap > .content
     +mobile
         max-width: 400px
-
+    .feather
+        display: flex
+        justify-content: center
+        
+        +widescreen
+            display: none
+        img
+            height: 40px
+            
     .title
         display: flex
         justify-content: space-between
